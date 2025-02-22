@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace ExampleSQLApp
 {
-    public partial class Form1 : Form
+    public partial class LoginForm : Form
     {
-        public Form1()
+        public LoginForm()
         {
             InitializeComponent();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
